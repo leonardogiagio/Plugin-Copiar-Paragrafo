@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    position: relative; /* Adiciona position: relative ao body para posicionar os botões em relação a ele */
+}
+
+.paragrafo {
+    max-width: 800px;
+}
+
+.botoes-acoes {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.card {
+    padding: 1rem;
+    border: 1px solid #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0, .08);
+}
+
+.botoes-acoes button {
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.botao-copiar {
+    background-color: #3498db;
+    border-radius: 8px 0px 0 8px;
+}
+
+.botao-facebook {
+    background-color: #3b5998;
+}
+
+.botao-instagram {
+    background-color: #e4405f;
+}
+
+.botao-whatsapp {
+    background-color: #4caf50;
+    border-radius: 0 8px 8px 0px;
+}
+
+.botoes-acoes button i {
+    margin-right: 8px;
+}
+

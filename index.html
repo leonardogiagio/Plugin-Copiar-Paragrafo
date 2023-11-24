@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões de Ação</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="botoes-acoes" class="botoes-acoes">
+        <button onclick="copiarParagrafo()" class="botao-copiar" id="botao-copiar">
+            <span id="icone-copiar"><i class="fas fa-copy"></i></span> <span id="texto-copiar">Copiar</span>
+        </button>
+        
+        
+        <button onclick="compartilharNoFacebook()" class="botao-facebook">
+            <i class="fab fa-facebook"></i> Facebook
+        </button>
+        <button onclick="compartilharNoInstagram()" class="botao-instagram">
+            <i class="fab fa-instagram"></i> Instagram
+        </button>
+        <button onclick="compartilharNoWhatsapp()" class="botao-whatsapp">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </button>
+    </div>
+
+    <div class="paragrafo" onclick="marcarParagrafo(this)">
+        <p>Parágrafo 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <div class="paragrafo" onclick="marcarParagrafo(this)">
+        <p>Parágrafo 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="paragrafo" onclick="marcarParagrafo(this)">
+        <p>Parágrafo 3: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="paragrafo" onclick="marcarParagrafo(this)">
+        <p>Parágrafo 4: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="paragrafo" onclick="marcarParagrafo(this)">
+        <p>Parágrafo 5: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <!-- Adicione mais parágrafos conforme necessário -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
