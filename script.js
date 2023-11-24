@@ -106,7 +106,7 @@ function compartilharNoInstagram() {
     // Compartilha o texto copiado no Instagram
     const textoCopiado = window.getSelection().toString();
     if (textoCopiado) {
-        window.open('instagram://share?text=' + encodeURIComponent(textoCopiado))
+        window.open('https://www.instagram.com/share/?u=https://leonardogiagio.github.io/Plugin-Copiar-Paragrafo/&caption=' + encodeURIComponent(textoCopiado))
     }
 }
 
